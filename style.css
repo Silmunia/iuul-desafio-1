@@ -21,9 +21,6 @@ footer {
     padding: 13px 0px;
     font-family: "Barlow Condensed";
     font-size: 14px;
-}
-
-footer a, footer p {
     color: var(--lightest-blue);
 }
 
