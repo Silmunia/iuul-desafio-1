@@ -13,17 +13,26 @@
 }
 
 footer {
-    background-color: var(--darkest-blue);
     box-sizing: border-box;
+    padding: 13px 0px;
+    
+    background-color: var(--darkest-blue);
+    color: var(--lightest-blue);
+
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 13px 0px;
+
     font-family: "Barlow Condensed";
     font-size: 14px;
-    color: var(--lightest-blue);
 }
 
 footer li:not(:last-child) {
     margin-bottom: 8px;
+}
+
+footer li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
