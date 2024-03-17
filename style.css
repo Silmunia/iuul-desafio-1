@@ -1,4 +1,5 @@
 @import url("css-reset.css");
+@import url("fonts.css");
 
 :root {
     --lightest-blue: #ABD1FF;
@@ -18,6 +19,7 @@ footer {
     align-items: center;
     justify-content: space-around;
     padding: 13px 0px;
+    font-family: "Barlow Condensed";
 }
 
 footer a, footer p {
