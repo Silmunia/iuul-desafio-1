@@ -16,6 +16,17 @@ body {
     background-color: var(--light-color);
 }
 
+nav {
+    background-color: var(--darkest-blue);
+
+    font-family: "Barlow Condensed";
+    color: var(--lightest-blue);
+    font-size: 22px;
+
+    padding-top: 15px;
+    padding-bottom: 23px;
+}
+
 main {
     color: var(--dark-color);
 
