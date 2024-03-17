@@ -1,5 +1,12 @@
 @import url("css-reset.css");
 
-h1 {
-    color: red;
+:root {
+    --lightest-blue: #ABD1FF;
+    --light-blue: #8DC7FF;
+
+    --dark-blue: #004A8E;
+    --darkest-blue: #00326D;
+
+    --light-color: #EEEEFF;
+    --dark-color: #112233;
 }
