@@ -12,6 +12,11 @@
     --dark-color: #112233;
 }
 
+main img {
+    width: 440px;
+    height: 440px;
+}
+
 footer {
     box-sizing: border-box;
     padding: 13px 0px;
