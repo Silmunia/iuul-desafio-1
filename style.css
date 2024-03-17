@@ -16,19 +16,37 @@ body {
     background-color: var(--light-color);
 }
 
+main {
+    color: var(--dark-color);
+
+    width: 960px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-around;
+    gap: 65px;
+}
+
 main img {
     width: 440px;
-    height: 440px;
+    flex: 0 1 auto;
+}
+
+main div {
+    width: 450px;
 }
 
 main h1 {
     font-family: "Barlow Condensed";
     font-size: 26px;
+    text-align: center;
+    margin: 0px auto 34px;
 }
 
 main p {
     font-family: "Montserrat";
     font-size: 14px;
+    line-height: 21px;
 }
 
 footer {
