@@ -17,6 +17,15 @@ main img {
     height: 440px;
 }
 
+main h1 {
+    font-family: "Barlow Condensed";
+    font-size: 26px;
+}
+
+main p {
+    font-size: 14px;
+}
+
 footer {
     box-sizing: border-box;
     padding: 13px 0px;
