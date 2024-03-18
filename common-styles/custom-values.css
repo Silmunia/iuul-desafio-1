@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: "Barlow Condensed";
+    src: url("../fonts/BarlowCondensed-SemiBold.ttf");
+}
+
+@font-face {
     font-family: "Montserrat";
     src: url("../fonts/Montserrat-Regular.ttf");
 }
