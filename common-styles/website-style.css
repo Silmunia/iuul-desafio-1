@@ -34,8 +34,6 @@ nav {
 body {
     background-color: var(--light-color);
 
-    height: 100vh;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
