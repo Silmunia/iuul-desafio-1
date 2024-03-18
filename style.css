@@ -33,13 +33,19 @@ nav {
     padding-bottom: 23px;
 }
 
-nav div {
+.nav-menu {
+    width: 1020px;
     margin: auto;
 
     display: flex;
-    gap: 80px;
     justify-content: space-around;
     align-items: center;
+    gap: 80px;
+}
+
+.nav-menu div {
+    display: flex;
+    gap: 10px;
 }
 
 .active-navigation {
