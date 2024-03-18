@@ -1,3 +1,47 @@
 @import url("../../common-styles/css-reset.css");
 @import url("../../common-styles/custom-values.css");
 @import url("../../common-styles/website-style.css");
+
+main {
+    color: var(--dark-color);
+
+    width: 1014px;
+    margin: auto;
+
+    display: flex;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 64px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.contact-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.contact-item > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-item h1 {
+    font-family: "Barlow Condensed";
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.contact-item p {
+    font-family: "Montserrat";
+    font-size: 18px;
+}
