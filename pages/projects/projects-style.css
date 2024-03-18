@@ -1,3 +1,81 @@
 @import url("../../common-styles/css-reset.css");
 @import url("../../common-styles/custom-values.css");
 @import url("../../common-styles/website-style.css");
+
+main {
+    color: var(--dark-color);
+}
+
+.project-item {
+    width: 970px;
+    height: 204px;
+
+    margin: auto;
+
+    display: flex;
+
+    gap: 28px;
+}
+
+.project-item video {
+    width: 320px;
+
+    border: 6px solid var(--lightest-blue);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.project-item h1 {
+    font-family: "Barlow Condensed";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.project-item a {
+    font-family: "Montserrat";
+    font-size: 16px;
+    
+    display: inline;
+    flex: 0 1;
+}
+
+.project-description {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    margin: 10px auto 10px;
+}
+
+.project-description > div {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.project-item p {
+    font-family: "Montserrat";
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.project-tech {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.project-tech h2 {
+    width: 172px;
+    font-family: "Barlow Condensed";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project-tech li {
+    font-family: "Montserrat";
+    font-size: 14px;
+}
