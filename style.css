@@ -33,6 +33,20 @@ nav {
     padding-bottom: 23px;
 }
 
+nav ul {
+    width: 1020px;
+    margin: auto;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li:not(:last-child) {
+    padding-right: 80px;
+}
+
 main {
     color: var(--dark-color);
 
