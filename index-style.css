@@ -11,6 +11,8 @@ main {
     display: flex;
     justify-content: space-around;
     gap: 65px;
+
+    margin: 60px auto 60px;
 }
 
 main img {
