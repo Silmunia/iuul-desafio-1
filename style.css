@@ -43,7 +43,7 @@ nav {
     gap: 80px;
 }
 
-.nav-menu div {
+.nav-menu div a {
     display: flex;
     gap: 10px;
 }
