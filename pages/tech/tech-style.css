@@ -1,3 +1,93 @@
 @import url("../../common-styles/css-reset.css");
 @import url("../../common-styles/custom-values.css");
 @import url("../../common-styles/website-style.css");
+
+main {
+    color: var(--dark-color);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech-item {
+    width: 1026px;
+    margin: auto;
+    display: flex;
+    gap: 22px;
+}
+
+.tech-item > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.tech-description {
+    justify-content: space-around;
+}
+
+.tech-attributes {
+    display: flex;
+    gap: 90px;
+    align-self: center;
+}
+
+.tech-attributes > div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.tech-projects {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.tech-projects li {
+    margin-bottom: 6px;
+}
+
+.tech-item h1, .tech-item h2, .tech-item h3 {
+    font-family: "Barlow Condensed";
+    font-weight: bold;
+}
+
+.tech-item h1 {
+    font-size: 26px;
+}
+
+.tech-item h2 {
+    font-size: 22px;
+}
+
+.tech-item h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.tech-item a, .tech-item p {
+    font-family: "Montserrat";
+    font-size: 18px;
+}
+
+.tech-item a {
+    font-style: italic;
+}
+
+.tech-item p {
+    line-height: 22px;;
+}
+
+.tech-item li {
+    font-family: "Montserrat";
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.tech-item img {
+    border: 6px solid var(--lightest-blue);
+    border-radius: 16px;
+    padding: 10px;
+}
