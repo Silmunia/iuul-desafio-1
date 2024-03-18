@@ -6,6 +6,7 @@
 @font-face {
     font-family: "Barlow Condensed";
     src: url("../fonts/BarlowCondensed-SemiBold.ttf");
+    font-weight: bold;
 }
 
 @font-face {
