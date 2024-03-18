@@ -9,12 +9,13 @@ main {
     margin: auto;
 
     display: flex;
+    gap: 122px;
 }
 
 .contact-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     gap: 64px;
 }
 
@@ -29,7 +30,7 @@ main {
     height: 100px;
 }
 
-.contact-item > div {
+.contact-item div {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -41,7 +42,65 @@ main {
     font-weight: bold;
 }
 
-.contact-item p {
+.contact-item p, .form-container label {
     font-family: "Montserrat";
     font-size: 18px;
+}
+
+.form-container {
+    width: 484px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form-container div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.form-container h1 {
+    font-family: "Barlow Condensed";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-container input {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    height: 34px;
+
+    font-family: "Montserrat";
+    font-size: 16px;
+
+    border-color: var(--dark-color);
+}
+
+.form-container textarea {
+    color: var(--dark-color);
+    background-color: var(--light-color);
+    height: 150px;
+    resize: none;
+
+    font-family: "Montserrat";
+    font-size: 16px;
+
+    border-color: var(--dark-color);
+}
+
+.form-container button {
+    width: 216px;
+    height: 34px;
+
+    font-family: "Montserrat";
+    font-size: 18px;
+
+    background-color: var(--lightest-blue);
+    color: var(--dark-color);
+    border-color: var(--dark-color);
+
+    margin: 12px auto 0px;
 }
