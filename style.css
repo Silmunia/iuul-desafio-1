@@ -33,18 +33,20 @@ nav {
     padding-bottom: 23px;
 }
 
-nav ul {
-    width: 1020px;
+nav div {
     margin: auto;
-    text-align: center;
+
+    display: flex;
+    gap: 80px;
+    justify-content: space-around;
+    align-items: center;
 }
 
-nav ul li {
-    display: inline;
-}
-
-nav ul li:not(:last-child) {
-    padding-right: 80px;
+.active-navigation {
+    color: var(--darkest-blue);
+    background-color: var(--lightest-blue);
+    padding: 5px 30px 8px;
+    border-radius: 15px;
 }
 
 main {
