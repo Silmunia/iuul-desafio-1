@@ -28,6 +28,8 @@ main h2, main p, main a {
     border: 6px solid var(--lightest-blue);
     border-radius: 15px;
     padding: 6px;
+    width: 96px;
+    height: 96px;
 }
 
 .education-item {
