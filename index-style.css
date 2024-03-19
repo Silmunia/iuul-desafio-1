@@ -9,20 +9,21 @@ main {
     margin: min(5.55vh, 60px) auto min(5.55vh, 60px);
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    gap: 65px;
+    gap: 50px;
 }
 
 main img {
-    width: 46%;
-    height: 46%;
+    width: clamp(280px, 33.85vw, 600px);
+    height: clamp(280px, 33.85vw, 600px);
 }
 
 main div {
     display: flex;
     flex-direction: column;
-    width: 47%;
+    width: clamp(280px, 33.85vw, 600px);
     gap: 20px;
 }
 
