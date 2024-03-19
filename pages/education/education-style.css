@@ -24,28 +24,34 @@ main h2, main p, main a {
     font-size: 18px;
 }
 
-.education-item {
-    width: 550px;
-    display: flex;
-    align-items: center;
-    gap: 22px;
-}
-
 .education-item img {
     border: 6px solid var(--lightest-blue);
     border-radius: 15px;
     padding: 6px;
 }
 
-.education-item > div {
-    height: 100%;
+.education-item {
+    width: 580px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    flex: 1 0 auto;
+    align-items: center;
+    gap: 22px;
 }
 
-.education-item > div > div {
+.education-item > div {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.education-info {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.education-info div {
     display: flex;
     justify-content: space-between;
 }
