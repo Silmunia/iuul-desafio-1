@@ -1,8 +1,7 @@
 nav {
     background-color: var(--darkest-blue);
 
-    padding-top: 15px;
-    padding-bottom: 23px;
+    padding: 15px 0px 15px;
 }
 
 .nav-menu {
@@ -22,6 +21,10 @@ nav {
 
 .nav-menu img {
     width: clamp(17px, 1.5vw, 24px);
+}
+
+.nav-menu div {
+    margin-bottom: 10px;
 }
 
 .nav-menu div a {
