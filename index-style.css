@@ -6,16 +6,12 @@ main {
     color: var(--dark-color);
 
     max-width: 72%;
-    margin: auto;
+    margin: min(5.55vh, 60px) auto min(5.55vh, 60px);
 
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 65px;
-
-    margin: min(5.55vh, 60px) auto min(5.55vh, 60px);
-
-    flex: 1;
 }
 
 main img {
