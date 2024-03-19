@@ -1,28 +1,40 @@
-.nav-menu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 80px;
-
-    font-family: "Barlow Condensed";
-    color: var(--lightest-blue);
-    font-size: 22px;
-
+nav {
     background-color: var(--darkest-blue);
 
     padding-top: 15px;
     padding-bottom: 23px;
 }
 
+.nav-menu {
+    max-width: 72%;
+    margin: auto;
+
+    font-family: "Barlow Condensed";
+    color: var(--light-blue);
+    font-size: clamp(16px, 2.3vw, 22px);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2%;
+}
+
+.nav-menu img {
+    width: clamp(17px, 1.5vw, 24px);
+}
+
 .nav-menu div a {
     display: flex;
-    gap: 10px;
+    gap: 0.5vw;
 }
 
 .active-navigation {
     color: var(--darkest-blue);
     background-color: var(--lightest-blue);
-    padding: 5px 30px 8px;
+
+    padding: min(5px, 0.25vw) min(30px, 1.5vw) min(8px, 0.4vw);
+
     border-radius: 15px;
 }
 
@@ -37,15 +49,19 @@ body {
 }
 
 footer {
-    box-sizing: border-box;
     padding: 13px 0px;
     
     background-color: var(--darkest-blue);
     color: var(--lightest-blue);
+}
+
+footer div {
+    max-width: 72%;
+    margin: auto;
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
     font-family: "Barlow Condensed";
     font-size: 14px;
