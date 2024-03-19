@@ -79,6 +79,7 @@ main {
 
 .tech-item a {
     font-style: italic;
+    color: var(--dark-blue);
 }
 
 .tech-item p {

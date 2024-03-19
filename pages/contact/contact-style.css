@@ -21,6 +21,10 @@ main {
     gap: 64px;
 }
 
+.contact-item a {
+    color: var(--dark-blue);
+}
+
 .contact-item {
     display: flex;
     align-items: center;

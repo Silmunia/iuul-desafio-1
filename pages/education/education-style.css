@@ -32,6 +32,10 @@ main h2, main p, main a {
     height: 96px;
 }
 
+.education-item a {
+    color: var(--dark-blue);
+}
+
 .education-item {
     width: 580px;
     display: flex;
