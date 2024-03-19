@@ -31,16 +31,17 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 40px;
 }
 
-.career-item > div > div {
+.career-titles {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-top: 8px;
 }
 
-.career-item > div > div > div {
+.career-titles > div {
     display: flex;
     align-items: center;
     justify-content: space-between;
