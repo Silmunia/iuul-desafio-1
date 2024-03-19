@@ -5,13 +5,13 @@
 main {
     color: var(--dark-color);
 
-    width: 1014px;
-    margin: auto;
+    max-width: 72%;
+    margin: clamp(40px, 5.55vh, 60px) auto clamp(40px, 5.55vh, 60px);
 
     display: flex;
-    gap: 122px;
-
-    margin: 60px auto 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
 }
 
 .contact-container {
@@ -28,18 +28,18 @@ main {
 .contact-item {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: clamp(10px, 1.25vw, 20px);
 }
 
 .contact-item img {
-    width: 100px;
-    height: 100px;
+    width: clamp(50px, 5.2vw, 100px);
+    height: clamp(50px, 5.2vw, 100px);
 }
 
 .contact-item div {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: min(1vw, 20px);
 }
 
 .contact-item h1 {
@@ -48,7 +48,12 @@ main {
     font-weight: bold;
 }
 
-.contact-item p, .form-container label {
+.contact-item p {
+    font-family: "Montserrat";
+    font-size: clamp(16px, 1vw, 18px);
+}
+
+.form-container label {
     font-family: "Montserrat";
     font-size: 18px;
 }
