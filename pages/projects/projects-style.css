@@ -84,6 +84,9 @@ main {
 
 .project-tech li {
     font-family: "Montserrat";
-    font-size: 14px;
     margin-bottom: 6px;
+}
+
+.project-tech a {
+    font-size: 14px;
 }
