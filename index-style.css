@@ -10,14 +10,19 @@ main {
 
     display: flex;
     justify-content: space-around;
+    align-items: center;
     gap: 65px;
 
     margin: 60px auto 60px;
+
+    flex: 1;
 }
 
 main img {
     width: 440px;
-    flex: 0 1 auto;
+    height: 440px;
+
+    flex: 0;
 }
 
 main div {
