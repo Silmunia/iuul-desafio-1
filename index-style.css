@@ -5,7 +5,7 @@
 main {
     color: var(--dark-color);
 
-    width: 960px;
+    max-width: 72%;
     margin: auto;
 
     display: flex;
@@ -13,27 +13,28 @@ main {
     align-items: center;
     gap: 65px;
 
-    margin: 60px auto 60px;
+    margin: min(5.55vh, 60px) auto min(5.55vh, 60px);
 
     flex: 1;
 }
 
 main img {
-    width: 440px;
-    height: 440px;
-
-    flex: 0;
+    width: 46%;
+    height: 46%;
 }
 
 main div {
-    width: 450px;
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    gap: 20px;
 }
 
 main h1 {
     font-family: "Barlow Condensed";
     font-size: 26px;
     text-align: center;
-    margin: 0px auto 34px;
+    margin-bottom: 10px;
 }
 
 main p {

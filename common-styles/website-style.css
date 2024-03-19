@@ -36,7 +36,7 @@ nav {
     color: var(--darkest-blue);
     background-color: var(--lightest-blue);
 
-    padding: min(5px, 0.25vw) min(30px, 1.5vw) min(8px, 0.4vw);
+    padding: max(5px, 0.5vh) min(30px, 1.5vw) max(5px, 0.5vh);
 
     border-radius: 15px;
 }
