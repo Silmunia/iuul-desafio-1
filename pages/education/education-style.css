@@ -10,19 +10,28 @@ main {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     gap: 70px;
 }
 
 main h1 {
     font-family: "Barlow Condensed";
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 main h2, main p, main a {
     font-family: "Montserrat";
     font-size: 18px;
+}
+
+.education-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 auto;
+    gap: 10px;
 }
 
 .education-item img {
@@ -37,28 +46,16 @@ main h2, main p, main a {
     color: var(--dark-blue);
 }
 
-.education-item {
-    width: 580px;
+.education-item > div {
+    width: 100%;
     display: flex;
     align-items: center;
-    gap: 22px;
-}
-
-.education-item > div {
-    height: 100px;
-    display: flex;
-    flex-direction: column;
     gap: 10px;
 }
 
 .education-info {
-    width: 380px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
-}
-
-.education-info div {
-    display: flex;
-    justify-content: space-between;
+    gap: 14px;
+    line-height: 22px;
 }
