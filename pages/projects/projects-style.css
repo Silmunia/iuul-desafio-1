@@ -99,7 +99,16 @@ main {
         flex-direction: column;
     }
 
+    .project-info a {
+        text-align: center;
+        line-height: 18px;
+    }
+
     .project-info, .project-tech {
         width: 80%;
+    }
+
+    .project-tech {
+        align-items: center;
     }
 }
