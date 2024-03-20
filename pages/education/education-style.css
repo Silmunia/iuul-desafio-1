@@ -53,8 +53,6 @@ main p, main a {
     gap: 10px;
 }
 
-.education-info {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
+.education-info *:not(:last-child) {
+    margin-bottom: 12px;
 }
