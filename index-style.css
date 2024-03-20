@@ -6,7 +6,7 @@ main {
     color: var(--dark-color);
 
     max-width: 72%;
-    margin: min(5.55vh, 60px) auto min(5.55vh, 60px);
+    margin: clamp(40px, 5.55vh, 60px) auto clamp(40px, 5.55vh, 60px);
 
     display: flex;
     flex-wrap: wrap;
