@@ -23,7 +23,7 @@ main {
 }
 
 .project-item video, .project-item img {
-    width: clamp(220px, 16.6vw, 320px);
+    width: clamp(200px, 16.6vw, 320px);
     aspect-ratio: 16 / 9;
 
     border: 6px solid var(--lightest-blue);
@@ -37,9 +37,9 @@ main {
     font-weight: bold;
 }
 
-.project-item a {
+.project-info a {
     font-family: "Montserrat";
-    font-size: 16px;
+    font-size: 14px;
     
     color: var(--dark-blue);
 }
@@ -60,9 +60,9 @@ main {
     gap: 10px;
 }
 
-.project-item p {
+.project-info p {
     font-family: "Montserrat";
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
 }
 
@@ -87,6 +87,7 @@ main {
 
 .project-tech a {
     font-size: 14px;
+    color: var(--dark-blue);
 }
 
 @media only screen and (max-width: 933px) {
