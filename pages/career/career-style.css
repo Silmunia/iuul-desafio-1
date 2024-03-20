@@ -52,18 +52,18 @@ main {
 
 main h1 {
     font-family: "Barlow Condensed";
-    font-size: 28px;
+    font-size: 22px;
     font-weight: bold;
 }
 
 main h2 {
     font-family: "Barlow Condensed";
-    font-size: 22px;
+    font-size: 20px;
 }
 
 main h3 {
     font-family: "Barlow Condensed";
-    font-size: 20px;
+    font-size: 18px;
     font-style: italic;
 }
 
