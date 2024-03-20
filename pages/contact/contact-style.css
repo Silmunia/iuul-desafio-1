@@ -34,15 +34,15 @@ main {
 }
 
 .contact-item img {
-    width: clamp(50px, 5.2vw, 100px);
-    height: clamp(50px, 5.2vw, 100px);
+    width: clamp(36px, 5.2vw, 100px);
+    height: clamp(36px, 5.2vw, 100px);
 }
 
 .contact-item div {
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: min(1vw, 20px);
+    gap: min(0.75vw, 20px);
 }
 
 .contact-item h1 {
@@ -53,7 +53,7 @@ main {
 
 .contact-item p {
     font-family: "Montserrat";
-    font-size: clamp(15px, 1vw, 18px);
+    font-size: clamp(14px, 1vw, 18px);
 }
 
 .form-container label {
