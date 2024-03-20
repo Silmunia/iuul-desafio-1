@@ -17,6 +17,8 @@ main {
 }
 
 .project-item {
+    width: 80%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -110,5 +112,9 @@ main {
 
     .project-tech {
         align-items: center;
+    }
+
+    .project-tech li {
+        text-align: center;
     }
 }
