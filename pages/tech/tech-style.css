@@ -19,6 +19,7 @@ main {
 .tech-item {
     display: flex;
     justify-content: space-evenly;
+    gap: 16px;
 }
 
 .tech-item > div:first-child {
@@ -61,7 +62,7 @@ main {
     gap: 10px;
 }
 
-.tech-projects ul {
+.tech-attributes ul, .tech-projects ul {
     list-style-type: square;
 }
 
@@ -114,4 +115,19 @@ main {
 
     width: clamp(120px, 11.9vw, 230px);
     height: clamp(120px, 11.9vw, 230px);
+}
+
+@media only screen and (max-width: 900px) {
+    .tech-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tech-description {
+        width: 80%;
+    }
+
+    .tech-attributes {
+        flex-wrap: wrap;
+    }
 }
