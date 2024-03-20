@@ -5,46 +5,49 @@
 main {
     color: var(--dark-color);
 
+    max-width: 72%;
+    margin: clamp(40px, 5.55vh, 60px) auto clamp(40px, 5.55vh, 60px);
+}
+
+.career-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 80px;
-
-    margin: 60px auto 60px;
+    gap: 50px;
 }
 
 .career-item {
-    width: 960px;
     display: flex;
-    align-items: center;
-    gap: 28px;
+    flex-direction: column;
+    gap: 14px;
 }
 
 .career-item img {
     border: 6px solid var(--lightest-blue);
     border-radius: 15px;
     padding: 8px;
+    width: clamp(120px, 9.1vw, 175px);
+    height: clamp(120px, 9.1vw, 175px);
 }
 
 .career-item > div {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 40px;
-}
-
-.career-titles {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 8px;
-}
-
-.career-titles > div {
     display: flex;
     align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.career-info {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.career-info > div {
+    display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 main h1 {
@@ -56,17 +59,33 @@ main h1 {
 main h2 {
     font-family: "Barlow Condensed";
     font-size: 22px;
-    font-style: italic;
 }
 
 main h3 {
     font-family: "Barlow Condensed";
     font-size: 20px;
+    font-style: italic;
 }
 
 main p {
     font-family: "Montserrat";
     font-size: 16px;
-    margin-bottom: 8px;
     line-height: 22px;;
+}
+
+@media only screen and (max-width: 933px) {
+    .career-item {
+        align-items: center;
+    }
+
+    .career-item > div {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .career-info > div {
+        flex-direction: column;
+        align-items: center;
+    }
 }
