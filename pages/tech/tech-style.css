@@ -4,51 +4,61 @@
 
 main {
     color: var(--dark-color);
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 48px;
     
     max-width: 72%;
     margin: clamp(40px, 5.55vh, 60px) auto clamp(40px, 5.55vh, 60px);
 }
 
-.tech-item {
-    width: 1026px;
-    margin: auto;
-    display: flex;
-    gap: 22px;
-}
-
-.tech-item > div {
+.tech-container {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    align-items: center;
+    gap: 48px;
+}
+
+.tech-item {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tech-item > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
 }
 
 .tech-description {
-    width: 580px;
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    gap: 14px;
+    height: 50%;
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .tech-attributes {
+    width: 100%;
     display: flex;
-    gap: 60px;
     align-self: center;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 .tech-attributes > div {
-    width: 260px;
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 10px;
 }
 
 .tech-projects {
     display: flex;
     flex-direction: column;
-    align-self: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .tech-projects li {
@@ -75,7 +85,7 @@ main {
 
 .tech-item a, .tech-item p {
     font-family: "Montserrat";
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .tech-item a {
@@ -97,4 +107,7 @@ main {
     border: 6px solid var(--lightest-blue);
     border-radius: 16px;
     padding: 10px;
+
+    width: clamp(120px, 11.9vw, 230px);
+    height: clamp(120px, 11.9vw, 230px);
 }
