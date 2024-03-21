@@ -6,7 +6,6 @@ main {
     color: var(--dark-color);
 
     max-width: 72%;
-    margin: clamp(40px, 5.55vh, 60px) auto clamp(40px, 5.55vh, 60px);
 }
 
 .project-container {

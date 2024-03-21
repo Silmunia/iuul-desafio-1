@@ -6,7 +6,11 @@ main {
     color: var(--dark-color);
 
     max-width: 72%;
-    margin: clamp(40px, 5.55vh, 60px) auto clamp(40px, 5.55vh, 60px);
+
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
 }
 
 .career-container {
@@ -75,7 +79,7 @@ main p {
     line-height: 22px;;
 }
 
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 1166px) {
     .career-item {
         align-items: center;
     }

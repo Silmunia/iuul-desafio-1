@@ -6,8 +6,13 @@ main {
     color: var(--dark-color);
 
     max-width: 72%;
-    margin: clamp(40px, 5.55vh, 60px) auto clamp(40px, 5.55vh, 60px);
+    flex: 1;
 
+    display: flex;
+    justify-content: center;
+}
+
+.index-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -15,26 +20,26 @@ main {
     gap: 50px;
 }
 
-main img {
+.index-container img {
     width: clamp(280px, 33.85vw, 600px);
     height: clamp(280px, 33.85vw, 600px);
 }
 
-main div {
+.index-container div {
     display: flex;
     flex-direction: column;
     width: clamp(280px, 33.85vw, 600px);
     gap: 20px;
 }
 
-main h1 {
+.index-container h1 {
     font-family: "Barlow Condensed";
     font-size: 26px;
     text-align: center;
     margin-bottom: 10px;
 }
 
-main p {
+.index-container p {
     font-family: "Montserrat";
     font-size: 14px;
     line-height: 22px;

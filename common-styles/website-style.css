@@ -1,5 +1,8 @@
 nav {
     background-color: var(--darkest-blue);
+    width: 100%;
+    position: fixed;
+    top: 0;
 
     padding: 15px 0px 15px;
 }
@@ -49,6 +52,10 @@ body {
     justify-content: space-between;
 
     min-height: 100vh;
+}
+
+main {
+    margin: 130px auto 60px;
 }
 
 footer {
