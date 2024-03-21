@@ -129,4 +129,13 @@ main {
     .tech-attributes {
         flex-wrap: wrap;
     }
+
+    .tech-projects h2 {
+        text-align: center;
+    }
+
+    .tech-projects ul {
+        display: flex;
+        gap: 60px;
+    }
 }
