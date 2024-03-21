@@ -25,7 +25,7 @@ main {
 }
 
 .project-item video, .project-item img {
-    width: clamp(200px, 16.6vw, 320px);
+    width: clamp(250px, 18vw, 420px);
     aspect-ratio: 16 / 9;
 
     border: 6px solid var(--lightest-blue);
@@ -39,13 +39,6 @@ main {
     font-weight: bold;
 }
 
-.project-info a {
-    font-family: "Montserrat";
-    font-size: 16px;
-    
-    color: var(--dark-blue);
-}
-
 .project-item > div {
     display: flex;
     gap: 10px;
@@ -54,18 +47,21 @@ main {
 .project-info {
     width: 50%;
 
-    display: flex;
-    flex-direction: column;
+    margin: auto;
+}
 
-    justify-content: center;
-
-    gap: 10px;
+.project-info a {
+    font-family: "Montserrat";
+    font-size: 16px;
+    
+    color: var(--dark-blue);
 }
 
 .project-info p {
     font-family: "Montserrat";
     font-size: 16px;
     line-height: 22px;
+    margin-top: 10px;
 }
 
 .project-tech {
@@ -101,16 +97,17 @@ main {
         flex-direction: column;
     }
 
-    .project-info a {
-        text-align: center;
-        line-height: 18px;
-    }
-
-    .project-info, .project-tech {
+    .project-info {
         width: 80%;
+        text-align: center;
     }
 
+    .project-info p {
+        text-align: left;
+    }
+    
     .project-tech {
+        width: 80%;
         align-items: center;
     }
 
