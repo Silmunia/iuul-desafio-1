@@ -48,6 +48,10 @@ main {
     gap: 20px;
 }
 
+.tech-attributes h2 {
+    text-align: center;
+}
+
 .tech-attributes > div {
     display: flex;
     flex-direction: column;
@@ -75,21 +79,16 @@ main {
 }
 
 .tech-item h1 {
-    font-size: 26px;
+    font-size: 2.6rem;
 }
 
 .tech-item h2 {
-    font-size: 22px;
-}
-
-.tech-item h3 {
-    font-size: 20px;
-    text-align: center;
+    font-size: 2rem;
 }
 
 .tech-item a, .tech-item p {
     font-family: "Montserrat";
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .tech-item a {
@@ -103,7 +102,7 @@ main {
 
 .tech-item li {
     font-family: "Montserrat";
-    font-size: 16px;
+    font-size: 1.6rem;
     margin-bottom: 6px;
 }
 

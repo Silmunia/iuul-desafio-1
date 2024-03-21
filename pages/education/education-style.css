@@ -10,13 +10,13 @@ main {
 
 main h1 {
     font-family: "Barlow Condensed";
-    font-size: clamp(14px, 4vw, 26px);
+    font-size: 2.6rem;
     font-weight: bold;
 }
 
 main p, main a {
     font-family: "Montserrat";
-    font-size: clamp(14px, 2.75vw, 20px);
+    font-size: 2rem;
 }
 
 .education-container {
@@ -54,4 +54,14 @@ main p, main a {
 
 .education-info *:not(:last-child) {
     margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 565px) {
+    main h1 {
+        font-size: 1.6rem;
+    }
+    
+    main p, main a {
+        font-size: 1.6rem;
+    }
 }

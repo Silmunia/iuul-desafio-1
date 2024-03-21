@@ -15,7 +15,7 @@ nav {
 
     font-family: "Barlow Condensed";
     color: var(--light-blue);
-    font-size: clamp(16px, 2.3vw, 22px);
+    font-size: 2.2rem;
 
     display: flex;
     flex-wrap: wrap;
@@ -76,7 +76,7 @@ footer div {
     justify-content: space-between;
 
     font-family: "Barlow Condensed";
-    font-size: 14px;
+    font-size: 1.6rem;
 }
 
 footer li:not(:last-child) {
@@ -87,4 +87,14 @@ footer li a {
     display: flex;
     align-items: center;
     gap: 4px;
+}
+
+@media only screen and (max-width: 360px) {
+    .nav-menu {
+        font-size: 1.6rem;
+    }
+
+    footer div {
+        font-size: 1.4rem;
+    }
 }

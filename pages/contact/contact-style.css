@@ -49,13 +49,8 @@ main {
 
 .contact-item h1 {
     font-family: "Barlow Condensed";
-    font-size: 24px;
+    font-size: 2.6rem;
     font-weight: bold;
-}
-
-.contact-item p {
-    font-family: "Montserrat";
-    font-size: clamp(14px, 1vw, 22px);
 }
 
 .form-container {
@@ -69,7 +64,7 @@ main {
 
 .form-container label {
     font-family: "Montserrat";
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 .form-container div {
@@ -80,7 +75,7 @@ main {
 
 .form-container h1 {
     font-family: "Barlow Condensed";
-    font-size: 24px;
+    font-size: 2.6rem;
     font-weight: bold;
 }
 
@@ -90,7 +85,7 @@ main {
     height: 34px;
 
     font-family: "Montserrat";
-    font-size: 16px;
+    font-size: 1.6rem;
 
     border-color: var(--dark-color);
 }
@@ -102,7 +97,7 @@ main {
     resize: none;
 
     font-family: "Montserrat";
-    font-size: 16px;
+    font-size: 1.6rem;
 
     border-color: var(--dark-color);
 }
@@ -112,7 +107,7 @@ main {
     height: 34px;
 
     font-family: "Montserrat";
-    font-size: 18px;
+    font-size: 1.8rem;
 
     background-color: var(--lightest-blue);
     color: var(--dark-color);
