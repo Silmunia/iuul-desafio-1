@@ -11,6 +11,7 @@ nav {
 
 .nav-menu {
     max-width: 72%;
+    min-width: 232px;
     margin: auto;
 
     font-family: "Barlow Condensed";
@@ -68,6 +69,7 @@ footer {
 
 footer div {
     max-width: 72%;
+    min-width: 232px;
     margin: auto;
 
     display: flex;
@@ -88,14 +90,15 @@ footer li a {
     gap: 4px;
 }
 
-@media only screen and (max-width: 825px) {
+@media only screen and (max-width: 795px) {
     .nav-menu {
+        font-size: 2rem;
         width: max(300px, 40%);
         flex-wrap: wrap;
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 395px) {
     .nav-menu {
         font-size: 1.8rem;
     }
@@ -105,8 +108,14 @@ footer li a {
     }
 }
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 345px) {
     .nav-menu {
         font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .nav-menu {
+        font-size: 1.4rem;
     }
 }
