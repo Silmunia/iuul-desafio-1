@@ -24,7 +24,7 @@ main {
 }
 
 .project-item video, .project-item img {
-    width: clamp(250px, 18vw, 420px);
+    width: clamp(200px, 18vw, 420px);
     aspect-ratio: 16 / 9;
 
     border: 6px solid var(--lightest-blue);
