@@ -96,6 +96,10 @@ footer li a {
         width: max(300px, 40%);
         flex-wrap: wrap;
     }
+
+    footer div {
+        width: max(300px, 40%);
+    }
 }
 
 @media only screen and (max-width: 395px) {
